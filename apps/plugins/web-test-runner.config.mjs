@@ -22,11 +22,11 @@ export default /** @type {import("@web/test-runner").TestRunnerConfig} */ ({
   groups: [
     {
       name: 'unit',
-      files: 'test/unit/**/*.test.ts',
+      files: '**/apps/plugins/test/unit/**/*.test.ts',
     },
     {
       name: 'integration',
-      files: 'test/integration/**/*.test.ts',
+      files: '**/apps/plugins/test/integration/**/*.test.ts',
     },
   ],
 
